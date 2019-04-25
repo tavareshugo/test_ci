@@ -1,0 +1,7 @@
+language: r
+cache:
+  packages: yes
+script:
+  - Rscript -e 'rmarkdown::render("docs/README.Rmd")'
+os:
+  - linux
